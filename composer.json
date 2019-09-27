@@ -1,0 +1,24 @@
+{
+    "name": "liyifei/yii2-redis",
+    "description": "simple way to use phpredis",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","redis","phpredis"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "liyifei",
+            "email": "119422342@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "suggest": {
+        "ext-redis": "The php redis extension https://github.com/nicolasff/phpredis/ is required for connecting to redis server"
+    },
+    "autoload": {
+        "psr-4": {
+            "liyifei\\redis\\": ""
+        }
+    }
+}
